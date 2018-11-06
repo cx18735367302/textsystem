@@ -1,0 +1,535 @@
+body{
+    background-color: #f1f2f6;
+    font-family: 楷体;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background: url("../img/yinyue_bg.jpg") no-repeat center;
+    background-size: cover;
+}
+.inner{
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo{
+    width: 376px;
+    height: 120px;
+}
+.div2{
+    margin-left: 29px;
+    float: right;
+}
+.div2 .piece{
+    float: left;
+    position: relative;
+    color: #fff;
+    z-index: 999;
+    margin-right: 22px;
+}
+.div2 .piece .h1{
+    background: url(../img/nav_now_bg.png) no-repeat bottom center;
+}
+.div2 .piece .h2:hover{
+    background: url(../img/nav_now_bg.png) no-repeat bottom center;
+}
+.div2 .piece .h3:hover{
+    background: url(../img/nav_now_bg.png) no-repeat bottom center;
+}
+.div2 .piece .h4:hover{
+    background: url(../img/nav_now_bg.png) no-repeat bottom center;
+}
+.div2 .piece .h5:hover{
+    background: url(../img/nav_now_bg.png) no-repeat bottom center;
+}
+.div2 .piece .h6:hover{
+    background: url(../img/nav_now_bg.png) no-repeat bottom center;
+}
+.div2 .piece h1{
+    font-size: 14px;
+    text-align: center;
+    padding: 0 15px;
+    position: relative;
+    cursor: pointer;
+    height: 35px;
+    margin-top: 50px;
+}
+.div2 .piece span{
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    top: 48px;
+    background: url(../img/nav_xiajiantou.png) no-repeat;
+    z-index: 999;
+}
+.div2 .piece ul{
+    font-size: 13px;
+    position: absolute;
+    left: -29px;
+    top: 37px;
+    width: 180px;
+    line-height: 40px;
+    background: #36264a;
+    color: #fff;
+    cursor: pointer;
+    z-index: 999;
+    display: none;
+}
+
+.div2 .piece ul li{
+    text-align: left;
+    padding-left: 30px;
+}
+.div2 .piece ul li:hover{
+    color: #fff;
+    padding-left: 40px;
+    transition: padding-left 0.4s ease 0s;
+    background: #3498db url(../img/nav_li_bg.png) no-repeat 165px 15px;
+}
+@keyframes  d{
+    0%{
+        height: 0px;
+    }
+    20%{
+        height: 300px;
+    }
+    40%{
+        height: 220px;
+    }
+    60%{
+        height: 260px;
+    }
+    80%{
+        height: 230px;
+    }
+    100%{
+        height: 240px;
+    }
+}
+.d1{
+    animation: d .5s 1 ease;
+}
+
+
+
+@keyframes  d1{
+    0%{
+        height: 0px;
+    }
+    20%{
+        height: 180px;
+    }
+    40%{
+        height: 100px;
+    }
+    60%{
+        height: 160px;
+    }
+    80%{
+        height: 110px;
+    }
+    100%{
+        height: 120px;
+    }
+}
+.d2{
+    animation: d1 0.5s 1 linear;
+}
+
+/*==========================================*/
+.wenhua{
+    width: 780px;
+    margin: 0 auto;
+    min-height: 700px;
+    background: #fff;
+    padding: 70px 160px 220px 160px;
+}
+.wenhua > .we{
+    line-height: 60px;
+}
+.wenhua > .we{
+    text-align: center;
+    font-size: 54px;
+    color: #311759;
+}
+.wenhua > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 6px;
+}
+.wenhua > h2{
+    text-align: center;
+    color: #311759;
+}
+.wenhua > img{
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+}
+.wenhua .ti{
+    color: #311759;
+    font-size: 30px;
+    background: url(../img/pen_line_long.png) no-repeat -320px 58px;
+    height: 60px;
+    position: relative;
+    margin-top: 70px;
+}
+.wenhua .ti .pen{
+    width: 61px;
+    height: 58px;
+    background: url(../img/pen_article.png) no-repeat;
+    position: absolute;
+    right: 0px;
+    top: 7px;
+    cursor: pointer;
+}
+.di{
+    color: #6b6a6f;
+    padding-top: 15px;
+    margin-bottom: 60px;
+}
+.di span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    display: block;
+    line-height: 22px;
+    margin-bottom: 23px;
+}
+.kzi{
+    width: 830px;
+}
+.ai{
+    margin-top: 80px;
+    margin-left: 350px;
+    width: 73px;
+    height: 73px;
+    overflow: hidden;
+}
+.ai1{
+    width: 220px;
+}
+.ai .ai_btn{
+    width: 73px;
+    height: 73px;
+    float: left;
+    background: url(../img/article_iflike.png) no-repeat;
+    cursor: pointer;
+}
+@keyframes name {
+    0% {
+        transform: scale(1.2, 0.8);
+    }
+    1% {
+        transform: scale(1.18, 0.82);
+    }
+    2% {
+        transform: scale(1.16, 0.84);
+    }
+    3% {
+        transform: scale(1.13, 0.87);
+    }
+    4% {
+        transform: scale(1.1, 0.9);
+    }
+    5% {
+        transform: scale(1.07, 0.93);
+    }
+    6% {
+        transform: scale(1.04, 0.96);
+    }
+    7% {
+        transform: scale(1.01, 0.99);
+    }
+    8% {
+        transform: scale(0.99, 1.01);
+    }
+    9% {
+        transform: scale(0.97, 1.03);
+    }
+    10% {
+        transform: scale(0.95, 1.05);
+    }
+    11% {
+        transform: scale(0.94, 1.06);
+    }
+    12% {
+        transform: scale(0.93, 1.07);
+    }
+    13% {
+        transform: scale(0.93, 1.07);
+    }
+    14% {
+        transform: scale(0.93, 1.07);
+    }
+    15% {
+        transform: scale(0.93, 1.07);
+    }
+    16% {
+        transform: scale(0.94, 1.06);
+    }
+    17% {
+        transform: scale(0.94, 1.06);
+    }
+    18% {
+        transform: scale(0.95, 1.05);
+    }
+    19% {
+        transform: scale(0.96, 1.04);
+    }
+    20% {
+        transform: scale(0.98, 1.02);
+    }
+    21% {
+        transform: scale(0.99, 1.01);
+    }
+    22% {
+        transform: scale(1, 1);
+    }
+    23% {
+        transform: scale(1, 1);
+    }
+    24% {
+        transform: scale(1.01, 0.99);
+    }
+    25% {
+        transform: scale(1.02, 0.98);
+    }
+    26% {
+        transform: scale(1.02, 0.98);
+    }
+    27% {
+        transform: scale(1.02, 0.98);
+    }
+    28% {
+        transform: scale(1.03, 0.97);
+    }
+    29% {
+        transform: scale(1.03, 0.97);
+    }
+    30% {
+        transform: scale(1.02, 0.98);
+    }
+    31% {
+        transform: scale(1.02, 0.98);
+    }
+    32% {
+        transform: scale(1.02, 0.98);
+    }
+    33% {
+        transform: scale(1.02, 0.98);
+    }
+    34% {
+        transform: scale(1.01, 0.99);
+    }
+    35% {
+        transform: scale(1.01, 0.99);
+    }
+    36% {
+        transform: scale(1.01, 0.99);
+    }
+    37% {
+        transform: scale(1, 1);
+    }
+    38% {
+        transform: scale(1, 1);
+    }
+    39% {
+        transform: scale(1, 1);
+    }
+    40% {
+        transform: scale(0.99, 1.01);
+    }
+    41% {
+        transform: scale(0.99, 1.01);
+    }
+    42% {
+        transform: scale(0.99, 1.01);
+    }
+    43% {
+        transform: scale(0.99, 1.01);
+    }
+    44% {
+        transform: scale(0.99, 1.01);
+    }
+    45% {
+        transform: scale(0.99, 1.01);
+    }
+    46% {
+        transform: scale(0.99, 1.01);
+    }
+    47% {
+        transform: scale(0.99, 1.01);
+    }
+    48% {
+        transform: scale(0.99, 1.01);
+    }
+    49% {
+        transform: scale(1, 1);
+    }
+}
+.ai .ai_nomber{
+    width: 135px;
+    height: 35px;
+    float: left;
+    margin-left: 5px;
+    background: url(../img/article_iflike_nomberbg.png) no-repeat;
+    margin-top: 19px;
+    padding-top: 8px;
+    color: #fff;
+    text-align: center;
+    padding-left: 5px;
+}
+.ai:hover{
+    width: 226px;
+    transition: all .5s;
+}
+.ai:hover .ai_btn{
+    animation:name 1s  1 ease ;
+}
+
+#footerbox{
+    position: relative;
+}
+#footerbox .inner{
+    width: 1100px;
+    margin: 0 auto;
+}
+#footerbox .box1{
+    background: url(../img/map_bottomimg.png) top center no-repeat;
+    position: absolute;
+    top: -33px;
+    left: 0;
+    height: 33px;
+    width: 100%;
+    min-width: 1100px;
+    background-color: transparent;
+}
+#footerbox .box2{
+    height: 348px;
+    min-width: 1100px;
+    background: url(../img/yinyue_bg.jpg);
+}
+#footerbox .music{
+    padding: 116px 0 0 400px;
+    height: 67px;
+}
+.music .span1{
+    float: left;
+    cursor: pointer;
+    width: 57px;
+    height: 57px;
+    background: url(../img/yinyue_duo.png) no-repeat;
+    margin-right: 26px;
+}
+.music .span2{
+    float: left;
+    cursor: pointer;
+    width: 57px;
+    height: 57px;
+    background: url(../img/yinyue_duo.png) no-repeat;
+    margin-right: 26px;
+    background-image: url(../img/yinyue_lai.png);
+}
+.music .span3{
+    float: left;
+    cursor: pointer;
+    width: 57px;
+    height: 57px;
+    background: url(../img/yinyue_duo.png) no-repeat;
+    margin-right: 26px;
+    background-image: url(../img/yinyue_mi.png);
+}
+.music .span4{
+    float: left;
+    cursor: pointer;
+    width: 57px;
+    height: 57px;
+    background: url(../img/yinyue_duo.png) no-repeat;
+    margin-right: 26px;
+    background-image: url(../img/yinyue_fa.png);
+}
+.music .span5{
+    float: left;
+    cursor: pointer;
+    width: 57px;
+    height: 57px;
+    background: url(../img/yinyue_duo.png) no-repeat;
+    margin-right: 26px;
+    background-image: url(../img/yinyue_suo.png);
+}
+.music .span6{
+    float: left;
+    cursor: pointer;
+    width: 57px;
+    height: 57px;
+    background: url(../img/yinyue_duo.png) no-repeat;
+    margin-right: 26px;
+    background-image: url(../img/yinyue_la.png);
+}
+.music .span6{
+    float: left;
+    cursor: pointer;
+    width: 57px;
+    height: 57px;
+    background: url(../img/yinyue_duo.png) no-repeat;
+    margin-right: 26px;
+    background-image: url(../img/yinyue_la.png);
+}
+.music .span7{
+    float: left;
+    cursor: pointer;
+    width: 57px;
+    height: 57px;
+    background: url(../img/yinyue_duo.png) no-repeat;
+    margin-right: 26px;
+    background-image: url(../img/yinyue_xi.png);
+}
+#footerbox .box3{
+    border-top: 2px #9890a2 dashed;
+    text-align: center;
+    line-height: 65px;
+    margin-top: 79px;
+    color: #fff;
+    cursor: pointer;
+}
+#footerbox .box4{
+    width: 87px;
+    height: 161px;
+    position: fixed;
+    bottom: 160px;
+    right: 40px;
+}
+#footerbox .box4 .box41{
+    background: url(../img/scroll_top_bg.png) no-repeat;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 17px;
+    margin-bottom: 24px;
+}
+#footerbox .box4 .box42{
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    right: 0;
+    top: 74px;
+    background: url(../img/fixed_contactus.png) top right no-repeat;
+    cursor: pointer;
+}
+#footerbox .music span:hover {
+    background-position: 0 -57px;
+    animation: name 1s linear 0s normal none 1 running;
+}
+
+
